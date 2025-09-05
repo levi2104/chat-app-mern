@@ -1,0 +1,44 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SF Pro Light';
+  src: 
+  url('/SF-Pro-Display/sf-pro-display-light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Regular';
+  src: 
+  url('/SF-Pro-Display/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Bold';
+  src: 
+  url('/SF-Pro-Display/SFPRODISPLAYBOLD.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.regular-fonts{
+  font-family: 'SF Pro Regular', sans-serif;
+  letter-spacing: 0.1px;
+}
+
+.light-fonts{
+  font-family: 'SF Pro Light', sans-serif;
+}
+
+.bold-fonts{
+  font-family: 'SF Pro Bold', sans-serif;
+}
+
+.shadow-360{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
